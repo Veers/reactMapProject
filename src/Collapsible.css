@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.collapsible{
+    border: 1px solid aquamarine;
+}
+
+.list_header {
+    border: 1px solid #446644;
+}
+
+.list_item {
+    border: 1px dotted bisque;
+    padding: 10px 10px 10px 50px;
+    text-align: left;
+}
+
+.list_item_title {
+    font-size: 12px;
+    padding-left: 50px;
+}
