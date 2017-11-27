@@ -13,7 +13,7 @@ class Collapsible extends Component {
                     {this.props.data.map(function (item) {
                         return <li className="list_item">
                             <span className="list_item_title">{item._id}</span>
-                            <CollapsibleItem data={item}/>
+                            <CollapsibleItem itemData={item}/>
                         </li>;
                     })}
                 </ul>

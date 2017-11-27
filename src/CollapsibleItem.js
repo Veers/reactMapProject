@@ -5,7 +5,8 @@ class CollapsibleItem extends Component {
     render() {
         return (
             <div>
-                123
+                {this.props.itemData.name}
+
             </div>
         );
     }
