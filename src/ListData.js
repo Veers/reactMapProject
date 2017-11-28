@@ -6,6 +6,7 @@ const ListData = [
         "isActive": false,
         "balance": "$2,638.28",
         "name": "Hattie",
+        "isToggleOn": true,
         "data": [
             {
                 "picture": "http://placehold.it/32x32",
@@ -58,6 +59,7 @@ const ListData = [
         "isActive": true,
         "balance": "$1,175.17",
         "name": "Mabel",
+        "isToggleOn": false,
         "data": [
             {
                 "picture": "http://placehold.it/32x32",
@@ -124,6 +126,7 @@ const ListData = [
         "isActive": false,
         "balance": "$3,296.94",
         "name": "Ivy",
+        "isToggleOn": true,
         "data": [
             {
                 "picture": "http://placehold.it/32x32",
@@ -176,6 +179,7 @@ const ListData = [
         "isActive": false,
         "balance": "$1,289.60",
         "name": "Ortiz",
+        "isToggleOn": true,
         "data": [
             {
                 "picture": "http://placehold.it/32x32",
@@ -256,6 +260,7 @@ const ListData = [
         "isActive": false,
         "balance": "$3,675.55",
         "name": "Maddox",
+        "isToggleOn": false,
         "data": [
             {
                 "picture": "http://placehold.it/32x32",

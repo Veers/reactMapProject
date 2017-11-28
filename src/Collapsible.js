@@ -3,6 +3,7 @@ import CollapsibleItem from './CollapsibleItem';
 import './Collapsible.css'
 
 class Collapsible extends Component {
+
     render() {
         return (
             <div className="collapsible">
@@ -11,8 +12,7 @@ class Collapsible extends Component {
                 </div>
                 <ul>
                     {this.props.data.map(function (item) {
-                        return <li className="list_item">
-                            <span className="list_item_title">{item._id}</span>
+                        return <li key={item._id} className="list_item">
                             <CollapsibleItem itemData={item}/>
                         </li>;
                     })}
