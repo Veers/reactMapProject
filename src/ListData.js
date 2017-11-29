@@ -20,7 +20,8 @@ const ListData = [
                 "address": "848 Canton Court, Robinson, Nevada, 5279",
                 "registered": "2017-05-27T04:27:55 -03:00",
                 "latitude": 11.130331,
-                "longitude": 78.215917
+                "longitude": 78.215917,
+                "active": true
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -34,7 +35,8 @@ const ListData = [
                 "address": "255 Battery Avenue, Orason, Missouri, 1299",
                 "registered": "2016-02-13T03:09:03 -03:00",
                 "latitude": -44.082684,
-                "longitude": 32.358411
+                "longitude": 32.358411,
+                "active": false
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -48,7 +50,8 @@ const ListData = [
                 "address": "968 Schroeders Avenue, Hessville, Illinois, 9205",
                 "registered": "2015-04-02T12:38:56 -03:00",
                 "latitude": 62.41886,
-                "longitude": 155.317827
+                "longitude": 155.317827,
+                "active": false
             }
         ]
     },
@@ -73,7 +76,8 @@ const ListData = [
                 "address": "510 Rutland Road, Fivepointville, Wyoming, 9336",
                 "registered": "2017-04-22T08:35:21 -03:00",
                 "latitude": -74.215933,
-                "longitude": -125.90216
+                "longitude": -125.90216,
+                "active": true
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -87,7 +91,8 @@ const ListData = [
                 "address": "780 Leonora Court, Coinjock, Utah, 4173",
                 "registered": "2014-12-09T08:58:55 -03:00",
                 "latitude": -56.763556,
-                "longitude": -7.161775
+                "longitude": -7.161775,
+                "active": true
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -101,7 +106,8 @@ const ListData = [
                 "address": "142 Colby Court, Day, Kansas, 7370",
                 "registered": "2015-10-01T06:10:53 -03:00",
                 "latitude": 74.335207,
-                "longitude": -123.087381
+                "longitude": -123.087381,
+                "active": true
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -115,7 +121,8 @@ const ListData = [
                 "address": "116 Hanson Place, Richville, Colorado, 8927",
                 "registered": "2014-04-19T12:38:17 -03:00",
                 "latitude": 39.020293,
-                "longitude": -116.317985
+                "longitude": -116.317985,
+                "active": false
             }
         ]
     },
@@ -140,7 +147,8 @@ const ListData = [
                 "address": "323 Highland Avenue, Muse, North Carolina, 800",
                 "registered": "2014-07-25T04:45:22 -03:00",
                 "latitude": 42.972337,
-                "longitude": -136.39061
+                "longitude": -136.39061,
+                "active": false
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -154,7 +162,8 @@ const ListData = [
                 "address": "840 Fleet Place, Bend, Wisconsin, 951",
                 "registered": "2017-05-18T08:22:31 -03:00",
                 "latitude": 2.611946,
-                "longitude": 151.489867
+                "longitude": 151.489867,
+                "active": false
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -168,7 +177,8 @@ const ListData = [
                 "address": "919 Cook Street, Strong, Mississippi, 8428",
                 "registered": "2017-10-08T08:13:12 -03:00",
                 "latitude": 76.138541,
-                "longitude": -83.976518
+                "longitude": -83.976518,
+                "active": false
             }
         ]
     },
@@ -193,7 +203,8 @@ const ListData = [
                 "address": "738 Gerald Court, Edmund, New Mexico, 3060",
                 "registered": "2015-05-25T09:23:27 -03:00",
                 "latitude": 4.207903,
-                "longitude": 17.294094
+                "longitude": 17.294094,
+                "active": true
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -207,7 +218,8 @@ const ListData = [
                 "address": "969 Pine Street, Outlook, Texas, 5147",
                 "registered": "2016-01-10T03:00:53 -03:00",
                 "latitude": 82.68995,
-                "longitude": 40.662666
+                "longitude": 40.662666,
+                "active": true
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -221,7 +233,8 @@ const ListData = [
                 "address": "253 George Street, Hayes, North Dakota, 9716",
                 "registered": "2014-11-09T09:55:49 -03:00",
                 "latitude": 16.223847,
-                "longitude": -60.328161
+                "longitude": -60.328161,
+                "active": false
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -235,7 +248,8 @@ const ListData = [
                 "address": "587 Noll Street, Shelby, California, 4145",
                 "registered": "2016-12-30T10:09:01 -03:00",
                 "latitude": 55.837724,
-                "longitude": 117.277481
+                "longitude": 117.277481,
+                "active": false
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -249,7 +263,8 @@ const ListData = [
                 "address": "217 Campus Road, Watrous, District Of Columbia, 9181",
                 "registered": "2015-02-12T05:49:24 -03:00",
                 "latitude": 30.730654,
-                "longitude": -29.511765
+                "longitude": -29.511765,
+                "active": true
             }
         ]
     },
@@ -274,7 +289,8 @@ const ListData = [
                 "address": "852 Ridgecrest Terrace, Waterview, Iowa, 3496",
                 "registered": "2016-06-26T11:27:07 -03:00",
                 "latitude": -73.598027,
-                "longitude": -92.622417
+                "longitude": -92.622417,
+                "active": false
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -288,7 +304,8 @@ const ListData = [
                 "address": "559 Jaffray Street, Cavalero, Indiana, 6200",
                 "registered": "2014-05-10T10:09:48 -03:00",
                 "latitude": 55.839557,
-                "longitude": -14.858032
+                "longitude": -14.858032,
+                "active": false
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -302,7 +319,8 @@ const ListData = [
                 "address": "285 Veranda Place, Itmann, Alabama, 9581",
                 "registered": "2015-11-30T06:50:33 -03:00",
                 "latitude": -25.875418,
-                "longitude": 43.069271
+                "longitude": 43.069271,
+                "active": false
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -316,7 +334,8 @@ const ListData = [
                 "address": "233 Pierrepont Street, Abiquiu, Georgia, 953",
                 "registered": "2016-06-23T06:24:55 -03:00",
                 "latitude": -60.391276,
-                "longitude": 64.136688
+                "longitude": 64.136688,
+                "active": false
             },
             {
                 "picture": "http://placehold.it/32x32",
@@ -330,7 +349,8 @@ const ListData = [
                 "address": "580 Barbey Street, Cliff, American Samoa, 7875",
                 "registered": "2015-01-09T05:58:22 -03:00",
                 "latitude": 59.603005,
-                "longitude": 149.667965
+                "longitude": 149.667965,
+                "active": true
             }
         ]
     }

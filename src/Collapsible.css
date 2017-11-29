@@ -90,3 +90,8 @@ img.arrow_expanded {
 .list_toggle_icon {
     padding: 0px 7px 0px 7px;
 }
+
+.list_item_data_text {
+  display: inline-block;
+  padding: 0px 10px 10px 10px;
+}

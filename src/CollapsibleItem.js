@@ -29,9 +29,9 @@ class CollapsibleItem extends Component {
                 <img className={"list_toggle_icon " + (this.state.toggle ? "arrow_expanded" : "arrow_collapsed")} src={arrow} alt="arrow_image"/>
                     {this.props.itemData._id}
                 </span>
-                <div className={(this.state.toggle ? "expanded_items" : "collapsed_items")} onClick={this.toggleElement}>
+                <div className={(this.state.toggle ? "expanded_items" : "collapsed_items")}>
                     {this.props.itemData.data.map(function(item){
-                        return <CollapsibleItemList listData={item} />    
+                        return <CollapsibleItemList key={item.registered} listData={item} />
                     })}
                 </div>                
             </div>
