@@ -10,17 +10,9 @@ class CollapsibleItem extends Component {
         this.toggleElement = this.toggleElement.bind(this);
     }
 
-    toggleElement(){
-        this.changeToggle(!this.state.toggle);
-        this.forceUpdate();
-        console.log("toggle");
-    }
+    toggleElement = () => this.changeToggle(!this.state.toggle);
 
-    changeToggle(status){
-        this.setState({
-            toggle: status
-        });
-    }
+    changeToggle = (status) => this.setState({toggle: status});
 
     render() {
         return (
