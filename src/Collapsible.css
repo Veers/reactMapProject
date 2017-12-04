@@ -151,6 +151,7 @@ ul {
     border: 1px solid aquamarine;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
+    width: 40%;
 }
 
 .list_header {

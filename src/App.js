@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Collapsible from './Collapsible';
 import ListData from './ListData';
+import EMap from './map/EMap';
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,6 +17,7 @@ class App extends Component {
                     To get started, edit <code>src/App.js</code> and save to reload.
                 </p>
                 <Collapsible title="List title" data={ListData}/>
+                <EMap/>
             </div>
         );
     }
