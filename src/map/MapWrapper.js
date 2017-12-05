@@ -4,9 +4,9 @@ import ol_layer_Tile from './../../node_modules/ol/layer/tile';
 import ol_source_OSM from './../../node_modules/ol/source/osm';
 import ol_View from './../../node_modules/ol/view';
 import './../../node_modules/ol/ol.css';
-import './EMap.css';
+import './MapWrapper.css';
 
-class EMap extends Component {
+class MapWrapper extends Component {
     constructor(props) {
         super(props);
     }
@@ -21,17 +21,17 @@ class EMap extends Component {
             ],
             view: new ol_View({
                 center: [0, 0],
-                zoom: 0
+                zoom: 3
             })
         });
     }
 
     render() {
         return (
-            <div id="map">
+            <div id="map" className="map">
             </div>
         );
     }
 }
 
-export default EMap;
+export default MapWrapper;
