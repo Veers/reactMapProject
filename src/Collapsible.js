@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import CollapsibleItem from './CollapsibleItem';
 import './Collapsible.css'
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 class Collapsible extends Component {
     constructor(props) {

@@ -1,17 +1,20 @@
 import React, {Component} from 'react';
-import Collapsible from './Collapsible';
-import ListData from './ListData';
+import MuiThemeProvider from '../node_modules/material-ui/styles/MuiThemeProvider';
 import EMap from './map/MapWrapper';
+import LeftPanel from './leftPanel/LeftPanel';
 import './App.css';
 
 class App extends Component {
+
     render() {
         return (
-            <div className="App">
-
-                <Collapsible title="List title" data={ListData}/>
-                <EMap/>
-            </div>
+            <MuiThemeProvider>
+                <div className="App">
+                    <LeftPanel/>
+                    {/*<Collapsible title="List title" data={ListData}/>*/}
+                    <EMap/>
+                </div>
+            </MuiThemeProvider>
         );
     }
 }
