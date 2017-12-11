@@ -4,6 +4,7 @@ import axios from 'axios'
 
 import MapWrapper from './MapWrapper'
 import LeftPanelMenu from './LeftPanelMenu'
+import MapButtons from './MapButtons'
 import {AppBar} from "material-ui"
 
 import '../../../styles/geoportal.scss'
@@ -59,6 +60,7 @@ class Geoportal extends React.Component {
         />
         <LeftPanelMenu layers={this.state.layers} visibility={this.state.menuVisibility} />
         <MapWrapper />
+        <MapButtons />
       </div>
     )
   }
