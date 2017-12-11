@@ -21,9 +21,9 @@ class Geoportal extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      menuVisibility: false,
-      layers: []
+      menuVisibility: false
     }
+    this.toggleLeftMenu = this.toggleLeftMenu.bind(this);
   }
 
   componentDidMount = () => {
@@ -31,17 +31,22 @@ class Geoportal extends React.Component {
     let _this = this;
     axios.get('http://gptl.ru/api/map/public/maps.json')
       .then(function(responce){
-        let layers = responce.data[0].templates[0].layers
+        let layersData = responce.data[0].templates[0].layers
         console.log(responce.data[0].templates[0].layers)
-        setLayers(layers)
+        setLayers(layersData)
         console.log(_this)
+        _this.setState({layers: layersData})
       })
       .catch(function(error){
         console.log(error)
       })
   }
 
-  menuToggle = () => {}
+  toggleLeftMenu = () => {this.setState(prevState => ({
+      menuVisibility: !prevState.menuVisibility
+    }))}
+
+  toggle2 = () => {console.log("toggleMeny22")}
 
   render() {
     return (
@@ -49,9 +54,10 @@ class Geoportal extends React.Component {
         <AppBar
           title="Title"
           iconClassNameRight="muidocs-icon-navigation-expand-more"
+          onLeftIconButtonClick={this.toggleLeftMenu}
           className="topToolBar"
         />
-        <LeftPanelMenu />
+        <LeftPanelMenu layers={this.state.layers} visibility={this.state.menuVisibility} />
         <MapWrapper />
       </div>
     )

@@ -1,8 +1,10 @@
 import React from 'react'
-import {Drawer, MenuItem, RaisedButton} from "material-ui";
+import PropTypes from 'prop-types'
+import {Drawer, MenuItem} from "material-ui";
 
 class LeftPanelMenu extends React.Component {
   static propTypes = {
+    visibility: PropTypes.bool.isRequired
     // counter: PropTypes.number.isRequired,
     // increment: PropTypes.func.isRequired,
     // doubleAsync: PropTypes.func.isRequired,
@@ -10,17 +12,16 @@ class LeftPanelMenu extends React.Component {
 
   constructor(props) {
     super(props)
+    this.state = {
+      visibility: false
+    }
   }
 
 
   render () {
     return (
       <div>
-        <RaisedButton
-          label="Toggle Drawer"
-          onClick={this.handleToggle}
-        />
-        <Drawer open={true}>
+        <Drawer open={this.props.visibility}>
           <MenuItem>Menu Item</MenuItem>
           <MenuItem>Menu Item 2</MenuItem>
         </Drawer>
