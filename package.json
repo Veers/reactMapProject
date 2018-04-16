@@ -86,7 +86,7 @@
     "react-addons-test-utils": "^15.5.1",
     "react-test-renderer": "^15.5.4",
     "rimraf": "^2.6.1",
-    "sass-loader": "^6.0.5",
+    "sass-loader": "^7.0.1",
     "sinon": "^2.2.0",
     "sinon-chai": "^2.10.0",
     "style-loader": "^0.17.0",
