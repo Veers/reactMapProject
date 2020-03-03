@@ -28,7 +28,7 @@
     "material-ui": "^0.20.0",
     "object-assign": "^4.1.1",
     "ol": "^4.6.3",
-    "promise": "^7.1.1",
+    "promise": "^8.1.0",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
